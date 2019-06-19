@@ -616,7 +616,9 @@ public class DefaultMQPullConsumerImpl implements MQConsumerInner {
         }
     }
 
-    public synchronized void start() throws MQClientException {
+    public synchronized void https://zhuanlan.zhihu.com/p/25140744
+
+    start() throws MQClientException {
         switch (this.serviceState) {
             case CREATE_JUST:
                 this.serviceState = ServiceState.START_FAILED;
